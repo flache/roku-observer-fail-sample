@@ -3,7 +3,9 @@
 <component name="TestScene" extends="Scene">
 
 <children>
-	<SimpleLabel text="test" color="#FFFFFF" />
+	<LayoutGroup id="outpRoot">
+		<SimpleLabel text="Test....." color="#FFFFFF" />
+	</LayoutGroup>
 </children>
 
 <script type="text/brightscript" uri="pkg://components/TestScene.brs"/>
